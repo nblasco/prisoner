@@ -84,3 +84,8 @@ def prisoner_or_citizen(data_list):
             print('Prisoner')
         else:
             print('Citizen')
+
+
+if __name__ == '__main__':
+    data = read_file('fixtures/data.txt')
+    prisoner_or_citizen(data)
